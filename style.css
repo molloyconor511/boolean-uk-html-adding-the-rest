@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template:
+    "top top top"1fr
+    "left-main middle-main right-main"9fr/
+    1fr 3fr 1fr;
+}
+.top {
+    background-color: white;
+    grid-area: top;
+    display: grid;
+    grid-template-columns: 1fr 8fr 4fr;
+    
+}
+.linkedIn-logo {
+    border: 2px dashed white;
+    border-radius: 5px;
+    margin: 5px 0px 5px 30px;
+    background-color: #0e76a8;
+    font-family: sans-serif bold;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.search-bar {
+    border: 2px dashed blue;
+    border-radius: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 20vw;
+}
+.search {
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 1fr;
+    background-color: rgb(231, 231, 231);
+    display: grid;
+    place-items: center;
+    
+}
+.popular-icons {
+    border: 2px dashed blue;
+    border-radius: 5px;
+    margin: 5px 30px 5px 0px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.icon-tab1{
+    border: green dashed 2px;
+    margin: 5px;
+    display: grid;
+    place-items: center;
+}
+.icon-tab2{
+    border: green dashed 2px;
+    margin: 5px 0px;
+    padding: 1rem;
+    text-align: center;
+}
+.icon-tab3{
+    border: green dashed 2px;
+    margin: 5px;
+    display: grid;
+    place-items: center;
+}
+.icon-tab4{
+    border: green dashed 2px;
+    margin: 5px 0px;
+    display: grid;
+    place-items: center;
+}
+.icon-tab5{
+    border: green dashed 2px;
+    margin: 5px;
+    display: grid;
+    place-items: center;
+}
+.left-main {
+    grid-area: left-main;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    gap: 10px;
+    margin: 20px 30px 0px 30px;
+}
+.left-upper {
+    border: 2px dashed blue;
+    display: grid;
+    grid-template-rows: 3fr repeat(3, 1fr); 
+}
+.left-upper-top {
+    border: black dashed 1px;
+    margin: 5px 5px 0px 5px;
+}
+.left-upper-item {
+    border: red dashed 1px;
+    margin: 5px;
+    
+}
+.left-lower {
+    border: 2px dashed blue;
+    border-bottom: none;
+}
+.middle-main {
+    background-color: white;
+    grid-area: middle-main;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    gap: 10px;
+    margin: 20px 20px 0px 5px;
+}
+.top-main {
+    border: 2px dashed blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.start-a-post {
+    border: green dashed 2px;
+    margin: 5px 5px 0px 5px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.profile-pic {
+    border: 1px dashed red;
+    border-radius: 50%;
+    margin: 3px 0px 3px 3px;
+    text-align: center;
+}
+.post-text {
+    border: 2px dashed red;
+    border-radius: 30px;
+    margin: 3px;
+    text-align: center;
+}
+.updates {
+    border: 2px dashed green;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.photo {
+    border: 2px dashed red;
+    margin: 2px;
+}
+.video {
+    border: 2px dashed red;
+    margin: 2px 0px 2px 0px;
+}
+.event {
+    border: 2px dashed red;
+    margin: 2px;
+}
+.write-article {
+    border: 2px dashed red;
+    margin: 2px 2px 2px 0px;
+}
+
+.bottom-main {
+    border: 2px dashed blue;
+    border-bottom: none;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.update1 {
+    border: green dashed 2px;
+    margin: 5px;
+}
+.update2 {
+    border: green dashed 2px;
+    border-bottom: none;
+    margin: 0px 5px 0px 5px;
+}
+.right-main {
+    background-color: white;
+    grid-area: right-main;
+    display: grid;
+    grid-template-rows: 5fr 2fr 1fr;
+    gap: 10px;
+    margin: 20px 30px 0px 15px;
+}
+.right-upper {
+    border: 2px dashed blue;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+.suggestions {
+    border: green 2px dashed;
+    margin: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+.add-friend-2 {
+    border: green 2px dashed;
+    margin: 0px 5px 0px 5px;
+    padding: 1rem;
+    text-align: center;
+}
+.add-friend-3 {
+    border: green 2px dashed;
+    margin: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+.add-friend-4 {
+    border: green 2px dashed;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    padding: 1rem;
+}
+.add-friend-5 {
+    border: green 2px dashed;
+    margin: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+.right-middle {
+    border: 2px dashed blue;
+    list-style-position: inside;
+    text-align: center;
+    color: lightslategray;
+}
+.right-lower {
+    border: 2px dashed blue;
+    border-bottom: none;
+}
+#courses {
+    text-align: center;
+    color: black;
+}
+ul li::before {
+    content: "🤷‍♀️";
+}
+
+
